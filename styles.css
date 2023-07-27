@@ -141,7 +141,7 @@ body {
 }
 
 .work-exp li:not(:first-child) {
-  list-style-type: initial; 
+  list-style-type: initial;
   margin-left: 15px;
   color: #7a869a;
   font-weight: 600;
@@ -260,17 +260,17 @@ body {
   gap: 24px;
 }
 
+.lang {
+  display: flex;
+  justify-content: space-between;
+}
+
 .skills-category .lang {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
 }
 
-.lang {
-  display: flex;
-  justify-content: space-between; 
-
-}
 .skills-list img {
   margin-left: 10px;
 }
@@ -278,7 +278,6 @@ body {
 .skills-list:not(:first-child) h2.lang {
   border-bottom: 2px solid #f7f7f9;
   padding-bottom: 15px;
-
 }
 
 .list-category {
