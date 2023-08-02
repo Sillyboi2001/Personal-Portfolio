@@ -325,7 +325,10 @@ body {
 .contact-container {
   display: flex;
   flex-direction: column;
-  background-image: url('./Images/contact\ form-\ background-shape-desktop.png');
+  background-color: #6070ff;
+  border-top-left-radius: 150px;
+  background-image: url('./Images/contact\ form\ shapes-mobile.svg');
+  background-position: right;
   background-repeat: no-repeat;
 }
 
