@@ -11,7 +11,7 @@
 <body>
   <div class="nav-bar">
       <div class="logo">My Logo</div>
-      <div class="menu-bar"><img src="./Images/menu.svg"></div>
+      <div class="menu-bar"><img src="./Images/menu.svg" alt="menuIcon"></div>
   </div>
   <section class="text-container">
     <div class="header1">
@@ -29,7 +29,7 @@
   </section>
   <section class="work-section">
     <div class="img-container">
-      <img src="./Images/Snapshoot Portfolio.png" >
+      <img src="./Images/Snapshoot Portfolio.png" alt="portfolio1">
     </div>
     <div class="stories-wrapper">
       <h class="work-title">Multi-Post stories</h>
@@ -51,7 +51,7 @@
   </section>
   <section class="work-section">
     <div class="img-container">
-      <img src="./Images/Snapshoot Portfolio1.png" >
+      <img src="./Images/Snapshoot Portfolio1.png" alt="portfolio2">
     </div>
     <div class="stories-wrapper">
       <h class="work-title">Tonic</h>
@@ -73,7 +73,7 @@
   </section>
   <section class="work-section">
     <div class="img-container">
-      <img src="./Images/SnapshootPortfolio2.png" >
+      <img src="./Images/SnapshootPortfolio2.png" alt="portfolio3">
     </div>
     <div class="stories-wrapper">
       <h class="work-title">Multi-Post stories</h>
@@ -111,7 +111,7 @@
       <div class="skills">
         <ul class="skills-category">
           <div class="skills-list">
-            <h2 class="lang">Languages <img src="./Images/chevrondown.svg"></h2>
+            <h2 class="lang">Languages <img src="./Images/chevrondown.svg" alt="chevrondownIcon"></h2>
             <ul class="list-category">
               <li class="list">
                 <img src="./Images/javascript.svg">
@@ -125,12 +125,39 @@
             </ul>
           </div>
           <li class="skills-list">
-            <h2 class="lang">Frameworks <img src="./Images/chevronright.svg"></h2>
+            <h2 class="lang">Frameworks <img src="./Images/chevronright.svg" alt="chevronrightIcon"></h2>
           </li>
           <li class="skills-list">
-            <h2 class="lang">Skills <img src="./Images/chevronright.svg"></h2>
+            <h2 class="lang">Skills <img src="./Images/chevronright.svg" alt="chevronrightIcon"></h2>
           </li>
         </ul>
+      </div>
+    </div>
+  </section>
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-text">
+        <h1 class="contact-header">Contact me</h1>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+          I’d love to help with it!
+        </p>
+      </div>
+      <div class="form-container">
+        <form class="form-section" action="https://formspree.io/f/maygqpol" method="post">
+          <div>
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Lorem Ipsum" maxlength="30">
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="loremipsum@gmail.com">
+          </div>
+          <textarea id="message" name="message" placeholder="Write your message here"></textarea>
+          <div>
+            <label for="submit"></label>
+            <input type="submit" id="submit" name="submit" value="Get in touch">
+          </div>
+        </form>
       </div>
     </div>
   </section>
