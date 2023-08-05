@@ -451,12 +451,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  /*desktop nav bar*/
+  /* desktop nav bar */
+
   .nav-bar {
     height: 72px;
     top: 44px;
   }
-  
+
   .logo {
     margin-left: 150px;
   }
@@ -477,7 +478,8 @@ body {
     color: #344563;
   }
 
-  /*Headline section*/
+  /* Headline section */
+
   .text-container {
     display: flex;
     flex-direction: column;
@@ -493,7 +495,8 @@ body {
     gap: 8px;
   }
 
-  /*Work section*/
+  /* Work section */
+
   .work-section {
     background-color: #fff;
     display: flex;
@@ -505,31 +508,32 @@ body {
     border-radius: 16px;
     margin-bottom: 100px;
     gap: 10px;
- }
+  }
 
   .img-container {
-      flex: 1;
-      flex-basis: 50%;
+    flex: 1;
+    flex-basis: 50%;
   }
 
   .img-container img {
-    max-height: 100%; 
+    max-height: 100%;
     max-width: 100%;
     object-fit: contain;
   }
 
   .stories-wrapper {
-      flex: 1;
-      flex-basis: 50%;
-      margin-left: 20px;
-      margin-top: 20px;
+    flex: 1;
+    flex-basis: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
   }
 
   .img-container.order {
     order: 2;
   }
 
-  /*About section*/
+  /* About section */
+
   .about-container {
     display: flex;
     justify-content: center;
@@ -559,7 +563,8 @@ body {
     gap: 16px;
   }
 
-  /*Contact section*/
+  /* Contact section */
+
   .contact-container {
     background-image: url("./Images/contact\ form\ background\ shapes@2x.png");
     background-repeat: no-repeat;
@@ -588,5 +593,4 @@ body {
     width: 447px;
     text-align: center;
   }
-
 }
