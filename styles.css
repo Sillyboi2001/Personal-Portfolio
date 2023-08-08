@@ -550,6 +550,10 @@ body {
     margin-left: 25px;
   }
 
+  .skills-list #lang {
+    margin-bottom: 50px;
+  }
+
   .list-category {
     display: flex;
     flex-direction: row;
@@ -559,8 +563,12 @@ body {
     width: 122px;
     height: 120px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 16px;
+  }
+
+  .list > img {
+    margin-left: -2px;
   }
 
   /* Contact section */
@@ -568,7 +576,8 @@ body {
   .contact-container {
     background-image: url("./Images/contact\ form\ background\ shapes@2x.png");
     background-repeat: no-repeat;
-    background-size: 90% 111%;
+    background-size: 70%;
+    background-position: center;
   }
 
   .contact-text {
