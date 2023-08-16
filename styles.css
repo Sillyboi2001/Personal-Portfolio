@@ -574,10 +574,17 @@ body {
   /* Contact section */
 
   .contact-container {
-    background-image: url("./Images/contact\ form\ background\ shapes@2x.png");
+    display: flex;
+    height: 846px;
+    background-color: #6070ff;
+    background-image: url('./Images/contact\ form\ background\ shapes@2x.png');
+    background-size: 75%;
     background-repeat: no-repeat;
-    background-size: 70%;
+    justify-content: center;
     background-position: center;
+    flex-direction: column;
+    padding: 8px;
+    padding-top: 50px;
   }
 
   .contact-text {
