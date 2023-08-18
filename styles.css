@@ -29,6 +29,10 @@ body {
   padding: 10px, 12px, 10px, 12px;
 }
 
+.logo-link {
+  text-decoration: none;
+}
+
 .menu-side-items {
   display: none;
 }
@@ -208,6 +212,10 @@ body {
 .project-btn:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+.project-btn {
+  transition: all 0.5s ease-out;
 }
 
 .project-btn:hover {
@@ -438,6 +446,7 @@ body {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   margin-bottom: 30px;
+  transition: all 0.5s ease-out;
 }
 
 .form-section input[type=submit]:active {
@@ -459,7 +468,33 @@ body {
   }
 
   .logo {
+    display: inline-block; 
     margin-left: 150px;
+  }
+  
+  .logo-link {
+    display: inline-block;
+    text-decoration: none;
+    animation: rotate 2s ease-in-out;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rotateOnce {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .menu-bar {
@@ -519,6 +554,10 @@ body {
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
+  }
+
+  .img-container img:hover {
+    transform: scale(1.02);
   }
 
   .stories-wrapper {
