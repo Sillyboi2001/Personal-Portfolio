@@ -214,10 +214,6 @@ body {
   color: #fff;
 }
 
-.project-btn {
-  transition: all 0.5s ease-out;
-}
-
 .project-btn:hover {
   background-color: #6070ff;
   color: #fff;
@@ -468,20 +464,21 @@ body {
   }
 
   .logo {
-    display: inline-block; 
+    display: inline-block;
     margin-left: 150px;
   }
-  
+
   .logo-link {
     display: inline-block;
     text-decoration: none;
     animation: rotate 2s ease-in-out;
   }
-  
+
   @keyframes rotate {
     0% {
       transform: rotate(0deg);
     }
+
     100% {
       transform: rotate(360deg);
     }
@@ -556,10 +553,6 @@ body {
     object-fit: contain;
   }
 
-  .img-container img:hover {
-    transform: scale(1.02);
-  }
-
   .stories-wrapper {
     flex: 1;
     flex-basis: 50%;
@@ -608,6 +601,10 @@ body {
 
   .list > img {
     margin-left: -2px;
+  }
+
+  .img-container img:hover {
+    transform: scale(1.02);
   }
 
   /* Contact section */
