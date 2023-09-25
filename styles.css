@@ -20,7 +20,6 @@ body {
 }
 
 .logo {
-  color: #6070ff;
   font-weight: 700;
   flex: 1;
   font-size: 18px;
@@ -31,6 +30,7 @@ body {
 
 .logo-link {
   text-decoration: none;
+  color: #6070ff;
 }
 
 .menu-side-items {
@@ -96,6 +96,10 @@ body {
 .media-icons {
   display: flex;
   margin-left: 20px;
+}
+
+.media-icons .icon {
+  margin-right: 15px;
 }
 
 .work-section {
@@ -197,6 +201,10 @@ body {
   line-height: 3px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .project-btn {
   font-size: 17px;
   font-weight: 500;
@@ -268,6 +276,10 @@ body {
   margin-bottom: 15px;
 }
 
+.media-icons1 .icon {
+  margin-right: 15px;
+}
+
 .about-container .btn-container {
   margin-bottom: 50px;
 }
@@ -320,6 +332,12 @@ body {
 
 .list img {
   margin-right: 20px;
+}
+
+.list .react {
+  width: 50px;
+  height: 51px;
+  border-radius: 100%;
 }
 
 .list-category .list {
